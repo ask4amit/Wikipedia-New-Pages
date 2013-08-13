@@ -1,0 +1,29 @@
+# Which wikipedia to find the new pages. Specify the lang of the wikipedia
+wikiLang=en
+
+# Constant, You don't need to change this unless you want to specify some offset etc
+paramters=/w/index.php?title=Special:NewPages&offset=&limit=200
+
+# Starting date for which New Pages is desired.  Should be 0 if you want today's pages
+# Will be 1 if you want to start listing with pages created yesterday
+daysBeforeToday=1
+
+# number of days for which you want the data
+numberOfDays=1
+
+# output dir. 
+outputDir=output/en
+
+# Date format listed on the page such as http://en.wikipedia.org/wiki/Special:NewPages 
+# Is of different format for different wikipedia languages.
+# Is  the date format to parse the timestamp with java.text.SimpleDateFormat class
+wikiTimeFormat=HH:mm, dd MMMM yyyy
+
+#Locale of the wikipedia page. Used in SimpleDateFormat to parse the Creation Date
+Locale=en
+
+# Output has <WikiID>\t<Creation date>
+# specify the format of the date in the output
+outputTimeFormat=HH:mm, dd MMMM yyyy
+
+

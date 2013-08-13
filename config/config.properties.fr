@@ -1,0 +1,9 @@
+wikiLang=fr
+paramters=/w/index.php?title=Special:NewPages&offset=&limit=200
+daysBeforeToday=1
+numberOfDays=1
+outputDir=output/fr
+wikiTimeFormat=dd MMM yyyy 'à' hh:mm
+Locale=fr
+outputTimeFormat=HH:mm, dd MMMM yyyy
+
